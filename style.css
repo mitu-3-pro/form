@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:  url(chatboot.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'poppins', sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    padding: 20px;
+}
+#chat-window{
+    border: 2px solid black;
+    margin: 30px;
+}
+p{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px 20px 5px 20px;
+    max-width: fit-content;
+    border: 3px solid black;
+    color: black;
+    font-size: 18px;
+    background-color: rgba(55, 163, 206, 0.733);
+    border-radius: 15px 15px 15px 0px;
+}
+#message{
+    width: calc(100% - 150px);
+    padding: 10px 15px;
+    height: 42px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+} 
+#send{
+    width: 70px;
+    height: 42px;
+    font-size: large;
+    background-color: rgb(235, 62, 128);
+    color: white;
+}
